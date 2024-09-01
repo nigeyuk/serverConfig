@@ -1,0 +1,61 @@
+# Category: AudioTools
+ffmpeg
+libvorbis-dev
+libogg-dev
+libmp3lame-dev
+libmad0-dev
+libpcre3-dev
+libsamplerate0-dev
+ocaml
+python3-eyed3
+vorbis-tools
+
+# Category: DevelopmentTools
+build-essential
+gcc
+g++
+make
+nodejs
+python-is-python3
+python3-venv
+python3-flask
+python3-pip
+
+# Category: NetworkingTools
+net-tools
+curl
+wget
+net-tools
+
+# Category: Database
+mariadb-server
+phpMyAdmin
+postgresql
+sqlite3
+
+# Category: Miscellaneous
+neofetch
+
+# Category: SecurityTools
+ufw
+fail2ban
+
+# Category: Shells
+fish
+zsh
+
+# Category: SystemTools
+autoconf
+git
+libssl-dev 
+libreadline-dev 
+m4
+make
+plocate
+pkg-config
+tree
+unzip
+zlib1g-dev
+
+# Category: WebServers
+apache2
