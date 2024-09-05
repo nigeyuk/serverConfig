@@ -1,5 +1,12 @@
 # Category: AudioTools
 ffmpeg
+libavcodec-dev
+libavdevice-dev
+libavfilter-dev
+libavformat-dev
+libavutil-dev
+libavswresample-dev
+libswscale-dev
 libvorbis-dev
 libogg-dev
 libmp3lame-dev
@@ -9,6 +16,7 @@ libsamplerate0-dev
 ocaml
 python3-eyed3
 vorbis-tools
+
 
 # Category: DevelopmentTools
 build-essential
