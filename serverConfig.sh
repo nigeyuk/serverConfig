@@ -73,6 +73,7 @@ add_user() {
     # Add the public key to authorized_keys
     sudo cp /home/$username/.ssh/id_rsa.pub /home/$username/.ssh/authorized_keys || error_exit "Failed to copy public key to authorized_keys."
     sudo chmod 600 /home/$username/.ssh/authorized_keys || error_exit "Failed to set permissions on authorized_keys."
+    sudo chown $username:$username /home/$username/.ssh/authorized_keys || error_exit "Failed to set owner on authorized_keys."
     log_message "${GREEN}SSH public key added to authorized_keys for $username.${NC}"
 
     # Display the public key for the admin to distribute
