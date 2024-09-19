@@ -5,7 +5,7 @@ libavdevice-dev
 libavfilter-dev
 libavformat-dev
 libavutil-dev
-libavswresample-dev
+libswresample-dev
 libswscale-dev
 libvorbis-dev
 libogg-dev
@@ -33,7 +33,6 @@ python3-pip
 net-tools
 curl
 wget
-net-tools
 
 # Category: Database
 mariadb-server
